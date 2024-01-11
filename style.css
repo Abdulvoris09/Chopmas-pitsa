@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1240px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body{
+    background-image: url("../img/Group 38.png");
+    background-size: 100%;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Sahifa{
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.label{
+    font-size: 40px;
+    font-weight: 700;
+}
+.labell{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.labelll{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.labellll{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.labelllll{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.btn{
+    border: 2px solid black;
+    border-radius: 2px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 65px;
+    padding-right: 65px;
+    font-size: 20px;
+}
+.select{
+    margin-bottom: 15px;
+    font-size: 20px;
+    /* width: 100%; */
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 70%;
+}
+.sahifa{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.class{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    width: 40%;
+    gap: 20px;
+}
+
+.nima{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#crad{
+    width: 30px;
+    height: 30px;
+    accent-color: red;
+}
+.DIV{
+    margin-bottom: 30px;
+}
+.ss{
+    font-size: 25px;
+    font-weight: 400;
+}
+.sapn{
+    font-size: 25px;
+    font-weight: 400;
+}
+.qoshim{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.radio-label {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .radio-custom {
+    top: 20;
+    left: 0;
+    border: 3px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 30px;
+    width: 180px;
+    height: 180px;
+    background-color: white;
+  }
+  
+  input[type="radio"] {
+    opacity: 0;
+  }
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.output {
+    margin-top: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+@media (max-width: 500px) {
+    .Sahifa {
+        font-size: 50px;
+        text-align: center;
+    }
+    .label{
+        font-size: 30px;
+        text-align: center;
+    }
+    .sahifa{
+        font-size: 30px;
+        text-align: center;
+    }
+    .nima{
+        font-size: 30px;
+        text-align: center;
+    }
+    .qoshim{
+        font-size: 30px;
+        text-align: center;
+    }
+    .space{
+        display: block;
+    }
+    .labell{
+        font-size: 30px;
+        text-align: center;
+    }
+    .labelll{
+        font-size: 30px;
+        text-align: center;
+    }
+    .labellll{
+        font-size: 30px;
+        text-align: center;
+    }
+    .labelllll{
+        font-size: 30px;
+        text-align: center;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .Sahifa{
+        font-size: 70px;
+        text-align: center;
+    }
+    .space{
+        display: block;
+    }
+    .radio-custom{
+        width: 120px;
+        height: 120px;
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .radio-custom{
+        width: 150px;
+        height: 150px;
+    }
+    .class{
+        gap: 5px;
+    }
+    .label{
+        font-size: 40px;
+    }
+    .labell{
+        font-size: 30px;
+    }
+    .labelll{
+        font-size: 30px;
+    }
+    .labellll{
+        font-size: 30px;
+    }
+    .labelllll{
+        font-size: 30px;
+    }
+    .btn{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
